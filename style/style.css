@@ -1,0 +1,141 @@
+header {
+  width: 1440px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-ul-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-btn {
+  font: bold 14px 'Open Sans';
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #505353;
+  padding: 10px 12px;
+}
+
+.header-btn:hover {
+  color: #FFFFFF;
+  background-color: #B2D235;
+  border-radius: 17px;
+  text-decoration: underline;
+}
+
+.header-img-hapo-learn {
+  width: 340px;
+  height: 70px;
+}
+
+.banner {
+  background-image: url('../image/hapo_learn_banner.png');
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  padding-left: 4%;
+  height: 655px;
+}
+
+.banner-text {
+  font-family: "utm-bryantlg";
+}
+
+.banner-text.big {
+  font-size: 50px;
+  line-height: 61px;
+  letter-spacing: -0.05em;
+}
+
+.banner-text.medium {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+  color: #11114E;
+}
+
+.banner-text.small {
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  color: #505353;
+}
+
+.banner-text.btn {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  background-color: #B2D235;
+  padding: 8px 50px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+}
+
+.banner-img-cu {
+  width: 54px;
+  height: 48px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-div-content-grey {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1440px;
+  height: 270px;
+  background-color: #505353;
+}
+
+.footer-div-content-back {
+  width: 1440px;
+  height: 38px;
+  background-color: #454545;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-ul-content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.footer-img-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-text {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.footer-text.big {
+  font-size: 23px;
+}
+
+.footer-text.small {
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer-img-hapo-learn {
+  width: 292px;
+  height: 60px;
+}
+
+.footer-img-icon {
+  width: 50px;
+  height: 50px;
+}
