@@ -1,48 +1,76 @@
-.header {
-    display: flex;
-    border-style: solid;
-    border-color: red;
+header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    
+.header-ul-content {
+  display: flex;
+  align-items: center;
 }
 
-.button {
-    font-family: Open Sans;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    text-transform: uppercase;
-    color: #505353;
-    text-decoration: none;
+.header-btn {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #505353;
+  padding: 10px 12px;
 }
 
-.button:visited {
-    background-color: #B2D235;
-    color:#FEFFFF;
-    border-radius: 17px;
-    text-decoration: underline;
+.header-btn:hover {
+  color: #FFFFFF;
+  background-color: #B2D235;
+  border-radius: 17px;
+  text-decoration: underline;
 }
 
-.banner{
-    width: max-content;    
-    background-image: url('image/Hapo_Learn_Banner.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+.banner {
+  background-image: url('/home/jan/Documents/Hapo/HapoLearn/image/Hapo_Learn_Banner.png');
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  padding-left: 4%;
+  height: 655px;
 }
 
-.textBanner{
-    font-family: UTM BryantLG;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 61px;
-    letter-spacing: -0.05em;
+.banner-text {
+  font-family: "utm-bryantlg";
+}
+
+.banner-text.big {
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 61px;
+  letter-spacing: -0.05em;
+}
+
+.banner-text.medium {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+  color: #11114E;
+}
+
+.banner-text.small {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  color: #505353;
+}
+
+.banner-text.btn {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  background-color: #B2D235;
+  padding: 8px 50px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
 }
