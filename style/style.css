@@ -28,7 +28,7 @@ header {
 }
 
 .banner {
-  background-image: url('/home/jan/Documents/Hapo/HapoLearn/image/Hapo_Learn_Banner.png');
+  background-image: url('/home/jan/Documents/Hapo/HapoLearn/image/hapo_learn_banner.png');
   display: flex;
   align-items: center;
   align-content: space-around;
@@ -61,6 +61,7 @@ header {
   letter-spacing: -0.05em;
   color: #505353;
 }
+
 
 .banner-text.btn {
   font-weight: bold;
