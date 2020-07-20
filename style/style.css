@@ -1,4 +1,5 @@
 header {
+  width: 1440px;
   height: 150px;
   display: flex;
   align-items: center;
@@ -11,9 +12,7 @@ header {
 }
 
 .header-btn {
-  font-family: 'Open Sans';
-  font-weight: bold;
-  font-size: 14px;
+  font: bold 14px 'Open Sans';
   line-height: 19px;
   text-transform: uppercase;
   color: #505353;
