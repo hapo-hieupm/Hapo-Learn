@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="style/reset.css" rel="stylesheet">
+    <link href="style/font.css" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Hapo Learn</title>
+</head>
+<body>
+    <section class="feedback">
+        <div class="feedback-text-big">
+            Feedback
+            <br> <img class="feedback-underline" src="image/underline_gr.png" alt="underline">
+        </div>
+        <div>
+            What other students turned professionals have to say about us<br> after learning with us and reaching their goals
+        </div>
+        <div class="">
+            <div class="Slides">
+                <text>
+                    “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+                </text>
+        </div>
+            <img class="mySlides" src="img_lights.jpg" style="width:100%">
+            <img class="mySlides" src="img_mountains.jpg" style="width:100%">
+            <img class="mySlides" src="img_forest.jpg" style="width:100%">
+          
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+          
+          <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("Slides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+          </script>
+    </section>
+    <section class="join-banner">
+        <div class="join-banner-text">
+            Become a member of our<br>growing community!
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <a class="join-banner-btn" href="#">Start Learning Now!</a>
+        </div>
+    </section>
+    <section class="statistic">
+        <div class="statistic-text-big">
+            Statistic
+            <br> <img class="statistic-underline" src="image/underline_gr.png" alt="underline">
+        </div>
+        <div class="statistic-div-content">
+            <div class="statistic-div-div-content">
+                <text class="statistic-text-medium">Courses</text>
+        <text class="statistic-number">1,586</text>
+    </div>
+        <div class="statistic-div-div-content"><text class="statistic-text-medium">Lessons</text><br>
+        <text class="statistic-number">2,689</text>
+    </div>
+    <div class="statistic-div-div-content">
+        <text class="statistic-text-medium">
+            Learners
+        </text>
+        <text class="statistic-number">
+            16,882
+        </text>
+     </div>   
+    </div>
+
+    </section>
+</body>
+</html>

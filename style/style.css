@@ -141,3 +141,90 @@ footer {
   height: 50px;
 }
 
+.feedback {}
+
+.feedback-text-big, .statistic-text-big {
+  font: bold 80px "utm-bryantlg";
+  line-height: 98px;
+  letter-spacing: -0.02em;
+  color: #11114E;
+  text-align: center;
+  text-shadow: 1px #11114E;
+}
+
+.feedback-underline, .statistic-underline {
+  width: 276px;
+  height: 6px;
+}
+
+.join-banner {
+  background: url("../image/nen_xanh_hoa_tiet.png") no-repeat;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.join-banner-text {
+  font: bold 60px "utm-bryantlg";
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  text-shadow: 1px #FFFFFF;
+}
+
+.join-banner-btn {
+  font: bold 30px "utm-bryantlg";
+  line-height: 37px;
+  letter-spacing: -0.05em;
+  text-shadow: 0.3px #90AB26;
+  color: #90AB26;
+  text-align: center;
+  padding: 8px 50px;
+  background-color: #FFFFFF;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+}
+
+.statistic {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  align-content: center;
+  width: 100%;
+  height: 600px;
+  background: #E5E5E5;
+}
+
+.statistic-div-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.statistic-div-div-content {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.statistic-text-medium {
+  font: bold 60px "utm-bryantlg";
+  text-align: center;
+  line-height: 74px;
+  letter-spacing: -0.05em;
+  color: #505353;
+}
+
+.statistic-number {
+  font: bold 60px "utm-bryantlg";
+  text-align: center;
+  line-height: 74px;
+  letter-spacing: -0.05em;
+  color: #B2D235;
+}
