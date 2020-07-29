@@ -41,7 +41,8 @@ header {
 }
 
 .banner-text,
-.footer-text {
+.footer-text,
+.why-hapo {
   font-family: "utm-bryantlg";
 }
 
@@ -83,3 +84,85 @@ header {
   height: 48px;
 }
 
+footer {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: space-around;
+  width: 100%;
+}
+
+.footer-div-content-grey {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  height: auto;
+  background-color: #505353;
+  background-size: cover;
+  padding-top: 5%;
+}
+
+.footer-ul-content {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-around;
+}
+
+.footer-img-content {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer-text {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.footer-text.list {
+  line-height: 45px;
+}
+
+.footer-text.list:hover {
+  text-decoration: underline;
+}
+
+.footer-text.list.big {
+  font-size: 23px;
+}
+
+.footer-text.small {
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer-img-hapo-learn {
+  width: 292px;
+  height: 60px;
+}
+
+.footer-link-img {
+  width: 50px;
+  height: 50px;
+  transition: transform .2s;
+}
+
+.footer-link-img:hover {
+  width: 60px;
+  height: 60px;
+  transform: scale(1.5);
+}
+
+.footer-div-content-back {
+  margin-top: 5%;
+  width: 100%;
+  height: 38px;
+  background-color: #454545;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
