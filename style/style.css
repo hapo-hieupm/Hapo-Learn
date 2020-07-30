@@ -547,7 +547,6 @@ footer {
 
 .half-stars-example .rating-label {
   cursor: pointer;
-  /* if you change the left/right padding, update the margin-right property of .rating-label-half as well. */
   padding: 0 0.2em;
   font-size: 14px;
   line-height: 22px;
