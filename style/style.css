@@ -218,15 +218,15 @@ footer {
   height: 215px;
 }
 
-.course-box-background.html-css {
+.course-box-background.left {
   background: #3F6185;
 }
 
-.course-box-background.laravel {
+.course-box-background.middle {
   background: #DC594C;
 }
 
-.course-box-background.php {
+.course-box-background.right {
   background: #556598;
 }
 
@@ -321,15 +321,15 @@ footer {
   height: 194px;
 }
 
-.other-course-box-background.css {
+.other-course-box-background.left {
   background: #24ABE2;
 }
 
-.other-course-box-background.ruby {
+.other-course-box-background.middle {
   background: #E14E40;
 }
 
-.other-course-box-background.java {
+.other-course-box-background.right {
   background: #1B75BB;
 }
 
