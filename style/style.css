@@ -436,3 +436,235 @@ footer {
   border-radius: 3px;
   margin-top: 2%;
 }
+
+.feedback-text-big hr{
+  width: 328px;
+}
+
+.statistic-text-big hr {
+  width: 279px;
+}
+
+.feedback {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+.feedback-text-slogan {
+  font: 25px/31px "utm-bryantlg";
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #505353;
+  padding: 2% 0 3%;
+}
+
+.feedback-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0 10%;
+}
+
+.feedback-people-content {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.feedback-textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-textbox-box {
+  width: 45%;
+  height: auto;
+}
+
+.feedback-textbox-text {
+  position: absolute;
+  overflow: auto;
+  width: 497px;
+  height: 89px;
+  font: 16px/20px "utm-bryantlg";
+  letter-spacing: -0.05em;
+  color: #000000;
+}
+
+.feedback-user {
+  padding-left: 5.5%;
+}
+
+.feedback-ava {
+  float: left;
+  margin: 0 5% 0 0.5%;
+  width: 60px;
+  height: 60px;
+}
+
+.feedback-text-user-name {
+  font: bold 20px/25px "utm-bryantlg";
+  color: #11114E;
+  -webkit-text-stroke: 0.5px #11114E;
+}
+
+.feedback-text-course-name {
+  font: bold 16px/20px "utm-bryantlg";
+  color: #505353;
+}
+
+.feedback-btn-right {
+  align-self: left;
+  width: 30px;
+  height: 30px;
+}
+
+.feedback-btn-left {
+  align-self: right;
+  width: 30px;
+  height: 30px;
+}
+
+.half-stars-example {
+  display: inline-flex;
+}
+
+.half-stars-example .rating-group {
+  display: inline-flex;
+  margin-left: -6%;
+}
+
+.half-stars-example .rating-icon {
+  pointer-events: none;
+}
+
+.half-stars-example .rating-input {
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+.half-stars-example .rating-label {
+  cursor: pointer;
+  padding: 0 0.2em;
+  font-size: 14px;
+  line-height: 22px;
+  -webkit-text-stroke: 2px #F2C54F;
+}
+
+.half-stars-example .rating-label-half {
+  padding-right: 0;
+  font-size: 12.5px;
+  margin-right: -1.45em;
+  z-index: 2;
+  -webkit-text-stroke: 0px #F2C54F;
+}
+
+.half-stars-example .rating-icon-star {
+  color: #F2C54F;
+}
+
+.half-stars-example .rating-icon-none {
+  color: #FFFFFF;
+}
+
+.half-stars-example .rating-input-none:checked+.rating-label .rating-icon-none {
+  color: red;
+}
+
+.half-stars-example .rating-input:checked~.rating-label .rating-icon-star {
+  color: #FFFFFF;
+}
+
+.half-stars-example .rating-group:hover .rating-label .rating-icon-star,
+.half-stars-example .rating-group:hover .rating-label-half .rating-icon-star {
+  color: #F2C54F;
+}
+
+.half-stars-example .rating-input:hover~.rating-label .rating-icon-star,
+.half-stars-example .rating-input:hover~.rating-label-half .rating-icon-star {
+  color: #FFFFFF;
+}
+
+.half-stars-example .rating-group:hover .rating-input-none:not(:hover)+.rating-label .rating-icon-none {
+  color: #FFFFFF;
+}
+
+.half-stars-example .rating-input-none:hover+.rating-label .rating-icon-none {
+  color: red;
+}
+/*end rating star*/
+
+.join-banner {
+  background: url("../image/nen_xanh_hoa_tiet.png") no-repeat;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.join-banner-text {
+  font: bold 60px "utm-bryantlg";
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  text-shadow: 1px #FFFFFF;
+  padding-bottom: 5%;
+}
+
+.join-banner-btn {
+  font: bold 30px "utm-bryantlg";
+  line-height: 37px;
+  letter-spacing: -0.05em;
+  text-shadow: 0.3px #90AB26;
+  color: #90AB26;
+  text-align: center;
+  padding: 8px 50px;
+  background-color: #FFFFFF;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+}
+
+.statistic {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  align-content: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+.statistic-div-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.statistic-div-div-content {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.statistic-text-medium {
+  font: bold 60px "utm-bryantlg";
+  text-align: center;
+  line-height: 74px;
+  letter-spacing: -0.05em;
+  color: #505353;
+}
+
+.statistic-number {
+  font: bold 60px "utm-bryantlg";
+  text-align: center;
+  line-height: 74px;
+  letter-spacing: -0.05em;
+  color: #B2D235;
+}
