@@ -536,25 +536,25 @@ footer {
   margin-left: -6%;
 }
 
-.half-stars-example .rating__icon {
+.half-stars-example .rating-icon {
   pointer-events: none;
 }
 
-.half-stars-example .rating__input {
+.half-stars-example .rating-input {
   position: absolute !important;
   left: -9999px !important;
 }
 
-.half-stars-example .rating__label {
+.half-stars-example .rating-label {
   cursor: pointer;
-  /* if you change the left/right padding, update the margin-right property of .rating__label--half as well. */
+  /* if you change the left/right padding, update the margin-right property of .rating-label-half as well. */
   padding: 0 0.2em;
   font-size: 14px;
   line-height: 22px;
   -webkit-text-stroke: 2px #F2C54F;
 }
 
-.half-stars-example .rating__label--half {
+.half-stars-example .rating-label-half {
   padding-right: 0;
   font-size: 12.5px;
   margin-right: -1.45em;
@@ -562,37 +562,37 @@ footer {
   -webkit-text-stroke: 0px #F2C54F;
 }
 
-.half-stars-example .rating__icon--star {
+.half-stars-example .rating-icon-star {
   color: #F2C54F;
 }
 
-.half-stars-example .rating__icon--none {
+.half-stars-example .rating-icon-none {
   color: #FFFFFF;
 }
 
-.half-stars-example .rating__input--none:checked+.rating__label .rating__icon--none {
+.half-stars-example .rating-input-none:checked+.rating-label .rating-icon-none {
   color: red;
 }
 
-.half-stars-example .rating__input:checked~.rating__label .rating__icon--star {
+.half-stars-example .rating-input:checked~.rating-label .rating-icon-star {
   color: #FFFFFF;
 }
 
-.half-stars-example .rating-group:hover .rating__label .rating__icon--star,
-.half-stars-example .rating-group:hover .rating__label--half .rating__icon--star {
+.half-stars-example .rating-group:hover .rating-label .rating-icon-star,
+.half-stars-example .rating-group:hover .rating-label-half .rating-icon-star {
   color: #F2C54F;
 }
 
-.half-stars-example .rating__input:hover~.rating__label .rating__icon--star,
-.half-stars-example .rating__input:hover~.rating__label--half .rating__icon--star {
+.half-stars-example .rating-input:hover~.rating-label .rating-icon-star,
+.half-stars-example .rating-input:hover~.rating-label-half .rating-icon-star {
   color: #FFFFFF;
 }
 
-.half-stars-example .rating-group:hover .rating__input--none:not(:hover)+.rating__label .rating__icon--none {
+.half-stars-example .rating-group:hover .rating-input-none:not(:hover)+.rating-label .rating-icon-none {
   color: #FFFFFF;
 }
 
-.half-stars-example .rating__input--none:hover+.rating__label .rating__icon--none {
+.half-stars-example .rating-input-none:hover+.rating-label .rating-icon-none {
   color: red;
 }
 /*end rating star*/
