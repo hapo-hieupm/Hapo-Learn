@@ -32,7 +32,7 @@ header {
 }
 
 .banner {
-  background-image: url('../image/hapo_learn_banner.png');
+  background: url('../image/hapo_learn_banner.png') no-repeat;
   display: flex;
   align-items: center;
   align-content: space-around;
@@ -594,7 +594,6 @@ footer {
 .half-stars-example .rating-input-none:hover+.rating-label .rating-icon-none {
   color: red;
 }
-/*end rating star*/
 
 .join-banner {
   background: url("../image/nen_xanh_hoa_tiet.png") no-repeat;
