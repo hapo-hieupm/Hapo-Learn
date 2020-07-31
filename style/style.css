@@ -12,8 +12,7 @@ header {
 }
 
 .header-btn {
-  font: bold 14px 'Open Sans';
-  line-height: 19px;
+  font: bold 14px/19px 'Open Sans';
   text-transform: uppercase;
   color: #505353;
   padding: 10px 12px;
@@ -38,6 +37,7 @@ header {
   align-content: space-around;
   padding-left: 4%;
   height: 655px;
+  background-size: cover;
 }
 
 .banner-text,
