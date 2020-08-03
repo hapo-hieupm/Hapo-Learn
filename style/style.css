@@ -562,19 +562,19 @@ footer {
   width: 30px;
   height: 30px;
   cursor: pointer;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 .feedback-btn.left {
   margin-left: -0.5%;
 }
 
 .feedback-btn.right {
-  margin-left: 35%;
+  margin-left: 29%;
 }
 
 .feedback-scroll-img {
-  position: absolute;
-  margin-left: -32%;
+  position: fixed;
+  margin-left: -27%;
   width: 5px;
   height: 108px;
 }
