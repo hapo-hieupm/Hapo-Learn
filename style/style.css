@@ -558,18 +558,25 @@ footer {
 }
 
 .feedback-btn {
-  position: relative;
+  position: absolute;
   width: 30px;
   height: 30px;
   cursor: pointer;
+  margin-top: 5%;
 }
-
 .feedback-btn.left {
-  float: left;
+  margin-left: -0.5%;
 }
 
-.feedback-btn-right {
-  float: right;
+.feedback-btn.right {
+  margin-left: 35%;
+}
+
+.feedback-scroll-img {
+  position: absolute;
+  margin-left: -32%;
+  width: 5px;
+  height: 108px;
 }
 
 .half-stars-example {
@@ -715,8 +722,9 @@ footer {
 }
 
 .mess-box {
+  visibility: hidden;
   position: fixed;
-  bottom: 12%;
+  bottom: 13%;
   right: 4%;
   width: 360px;
   height: 190px;
