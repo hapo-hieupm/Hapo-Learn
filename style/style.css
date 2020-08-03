@@ -488,7 +488,7 @@ footer {
 
 .feedback {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: center;
   padding-bottom: 3%;
 }
@@ -503,30 +503,25 @@ footer {
 
 .feedback-content {
   display: flex;
-  flex-flow: row;
+  flex-direction: row;
   justify-content: center;
-  padding: 0 10%;
 }
 
 .feedback-people-content {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
 }
 
 .feedback-textbox {
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.feedback-textbox-box {
-  width: 45%;
-  height: auto;
+  background: url('../image/feedback_dialog_box.png') no-repeat;
+  width: 586px;
+  height: 183px;
 }
 
 .feedback-textbox-text {
-  text-align: center;
-  position: absolute;
+  margin-left: 2%;
   overflow: auto;
   width: 497px;
   height: 89px;
@@ -535,8 +530,31 @@ footer {
   color: #000000;
 }
 
+.feedback-btn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.feedback-btn.left {
+  margin-left: -1%;
+}
+
+.feedback-btn.right {
+  margin: 0 -5% 0 3.5%;
+}
+
+.feedback-scroll-img {
+  margin-left: 3%;
+  width: 5px;
+  height: 108px;
+}
+
+.feedback-scroll-img.right {
+  margin-left: 5%;
+}
+
 .feedback-user {
-  padding-left: 5.5%;
+  padding: 3% 5.5% 0 0;
 }
 
 .feedback-ava {
@@ -555,28 +573,6 @@ footer {
 .feedback-text-course-name {
   font: bold 16px/20px "utm-bryantlg";
   color: #505353;
-}
-
-.feedback-btn {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  margin-top: 4%;
-}
-.feedback-btn.left {
-  margin-left: -0.5%;
-}
-
-.feedback-btn.right {
-  margin-left: 29%;
-}
-
-.feedback-scroll-img {
-  position: absolute;
-  margin-left: -27%;
-  width: 5px;
-  height: 108px;
 }
 
 .half-stars-example {
