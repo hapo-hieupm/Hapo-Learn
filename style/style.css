@@ -510,7 +510,7 @@ footer {
 
 .feedback-people-content {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
 }
 
 .feedback-textbox {
@@ -573,7 +573,7 @@ footer {
 }
 
 .feedback-scroll-img {
-  position: fixed;
+  position: absolute;
   margin-left: -27%;
   width: 5px;
   height: 108px;
