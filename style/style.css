@@ -77,7 +77,7 @@ header {
   letter-spacing: -0.05em;
   color: #FFFFFF;
   background-color: #B2D235;
-  padding: 10px 50px;
+  padding: 8px 50px;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
   -webkit-text-stroke: 0.3px #FFFFFF;
@@ -86,10 +86,7 @@ header {
 }
 
 .banner-text.btn:hover {
-  font-size: 31px;
-  opacity: 0.9;
-  padding: 13px 50px;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 0.85;
 }
 .banner-img-cu {
   width: 54px;
@@ -150,7 +147,7 @@ footer {
 
 .footer-text.left{
   width:30%;
-  margin: -5.5% 0 0 8%;
+  margin-left: 8%;
 }
 
 .footer-text.list {
@@ -321,7 +318,7 @@ footer {
   text-shadow: 0.3px #FFFFFF;
   text-align: center;
   background-color: #B2D235;
-  padding: 3% 0;
+  padding: 2% 0;
   box-shadow: inset 0px 1.5px 2px #6F8710;
   border-radius: 22px;
   -webkit-text-stroke: 0.3px #FFFFFF;
@@ -329,8 +326,7 @@ footer {
 
 .other-course-btn:hover,
 .course-btn:hover {
-  padding: 4% 1%;
-  border-radius: 30px;
+  padding: 3% 1%;
   font-size: 19px;
 }
 
@@ -402,8 +398,11 @@ footer {
 }
 
 .other-course-link:hover {
-  font-size: 48px;
-  -webkit-text-stroke: 2px #90AB26;
+  color: #FFFFFF;
+  -webkit-text-stroke: 1px #FFFFFF;
+  background-color: #90AB26;
+  padding: 0.5% 2%;
+  border-radius: 35px;
 }
 
 .why-hapo {
@@ -476,7 +475,7 @@ footer {
   background-color: #B2D235;
   border: 2px solid #B2D235;
   border-radius: 3px;
-  margin-top: 1%;
+  margin-top: 2%;
 }
 
 .feedback-text-big hr{
@@ -491,7 +490,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 .feedback-text-slogan {
@@ -673,16 +672,10 @@ footer {
   text-shadow: 0.3px #90AB26;
   color: #90AB26;
   text-align: center;
-  padding: 10px 50px;
+  padding: 8px 50px;
   background-color: #FFFFFF;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-}
-
-.join-banner-btn:hover {
-  font-size: 32px;
-  padding: 14px 54px;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .statistic {
@@ -741,7 +734,6 @@ footer {
 }
 
 .mess-btn {
-  cursor: pointer;
   position: fixed;
   bottom: 4.5%;
   right: 4%;
